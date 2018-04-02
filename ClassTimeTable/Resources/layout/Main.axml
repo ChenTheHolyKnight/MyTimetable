@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100"
+    android:background="#FFFFFF">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/relativeLayout1"
+        android:layout_weight="10">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </RelativeLayout>
+    <RelativeLayout
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:id="@+id/relativeLayout2"
+      android:layout_weight="80">     
+    </RelativeLayout>
+    <RelativeLayout
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:id="@+id/relativeLayout3"
+      android:layout_weight="10">
+      <Toolbar
+        android:id="@+id/week_toolbar"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      </Toolbar>
+      
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTimeTable", "ClassTimeTable\ClassTimeTable.csproj", "{817C526A-D94F-4E09-8BE1-D0A2E37ED9C6}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TimeTableDb", "TimeTableDb\TimeTableDb.sqlproj", "{97CC9EEB-4828-4F15-8F7D-1225F3421B63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{817C526A-D94F-4E09-8BE1-D0A2E37ED9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817C526A-D94F-4E09-8BE1-D0A2E37ED9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817C526A-D94F-4E09-8BE1-D0A2E37ED9C6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{817C526A-D94F-4E09-8BE1-D0A2E37ED9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817C526A-D94F-4E09-8BE1-D0A2E37ED9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817C526A-D94F-4E09-8BE1-D0A2E37ED9C6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{97CC9EEB-4828-4F15-8F7D-1225F3421B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CC9EEB-4828-4F15-8F7D-1225F3421B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CC9EEB-4828-4F15-8F7D-1225F3421B63}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{97CC9EEB-4828-4F15-8F7D-1225F3421B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CC9EEB-4828-4F15-8F7D-1225F3421B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CC9EEB-4828-4F15-8F7D-1225F3421B63}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5B7E151-DF88-407F-85F8-DA36DC50F3FC}
+	EndGlobalSection
+EndGlobal
