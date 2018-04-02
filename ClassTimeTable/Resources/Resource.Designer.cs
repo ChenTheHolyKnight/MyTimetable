@@ -44,32 +44,35 @@ namespace ClassTimeTable
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060005
-			public const int menu_Add = 2131099653;
+			// aapt resource value: 0x7f060001
+			public const int AddFragmentToolbar = 2131099649;
 			
 			// aapt resource value: 0x7f060006
-			public const int menu_Delete = 2131099654;
+			public const int menu_Add = 2131099654;
 			
 			// aapt resource value: 0x7f060007
-			public const int menu_Edit = 2131099655;
+			public const int menu_Delete = 2131099655;
 			
 			// aapt resource value: 0x7f060008
-			public const int menu_monday = 2131099656;
+			public const int menu_Edit = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int menu_monday = 2131099657;
 			
 			// aapt resource value: 0x7f060000
 			public const int relativeLayout1 = 2131099648;
 			
-			// aapt resource value: 0x7f060002
-			public const int relativeLayout2 = 2131099650;
-			
 			// aapt resource value: 0x7f060003
-			public const int relativeLayout3 = 2131099651;
-			
-			// aapt resource value: 0x7f060001
-			public const int toolbar = 2131099649;
+			public const int relativeLayout2 = 2131099651;
 			
 			// aapt resource value: 0x7f060004
-			public const int week_toolbar = 2131099652;
+			public const int relativeLayout3 = 2131099652;
+			
+			// aapt resource value: 0x7f060002
+			public const int toolbar = 2131099650;
+			
+			// aapt resource value: 0x7f060005
+			public const int week_toolbar = 2131099653;
 			
 			static Id()
 			{
@@ -85,10 +88,13 @@ namespace ClassTimeTable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int AddFragment = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int ToolBar = 2130837505;
+			public const int Main = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int ToolBar = 2130837506;
 			
 			static Layout()
 			{

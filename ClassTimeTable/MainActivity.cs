@@ -31,7 +31,7 @@ namespace ClassTimeTable
             
 
         }
-        #region | Menu |
+        #region | Top Menu |
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             MenuInflater.Inflate(Resource.Menu.top_menu,menu);
@@ -44,13 +44,15 @@ namespace ClassTimeTable
             switch (item.ItemId)
             {
                 case Resource.Id.menu_Add:
-                    ActionBar.Title = "Add";
+                    FragmentTransaction fragment = FragmentManager.BeginTransaction();
+                    AddFragment addFragment = new AddFragment();
+                    addFragment.Show(fragment,"add fragment");
                     break;
                 case Resource.Id.menu_Delete:
-                    ActionBar.Title = "Delete";
+                    
                     break;
                 case Resource.Id.menu_Edit:
-                    ActionBar.Title = "Edit";
+                    
                     break;
                 default:
                     break;

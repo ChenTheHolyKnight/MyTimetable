@@ -76,6 +76,7 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\TimeTable.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -89,6 +90,9 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\ToolBar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AddFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
