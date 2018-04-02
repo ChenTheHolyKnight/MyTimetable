@@ -44,9 +44,7 @@ namespace ClassTimeTable
             switch (item.ItemId)
             {
                 case Resource.Id.menu_Add:
-                    FragmentTransaction fragment = FragmentManager.BeginTransaction();
-                    AddFragment addFragment = new AddFragment();
-                    addFragment.Show(fragment,"add fragment");
+                    StartActivity(typeof(AddActivity));
                     break;
                 case Resource.Id.menu_Delete:
                     
