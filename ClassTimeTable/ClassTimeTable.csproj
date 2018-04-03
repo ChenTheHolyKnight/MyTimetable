@@ -77,7 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddActivity.cs" />
-    <Compile Include="AddFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\TimeTable.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

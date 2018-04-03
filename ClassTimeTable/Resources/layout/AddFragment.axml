@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="100"
-    android:background="#FFFFFF"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:background="#FFF">
     <RelativeLayout
         android:minWidth="25px"
         android:minHeight="25px"
@@ -23,4 +23,60 @@
             android:layout_height="match_parent"
             android:id="@+id/AddFragmentToolbar" />
     </RelativeLayout>
+    <TextView
+        android:text="Course Name:"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="10"
+        android:textColor="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/editText1"
+        android:layout_weight="10"
+        android:textColor="#F1C40F"
+        android:textColorHint="#F1C40F" />
+    <TextView
+        android:text="Day:"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="10"
+        android:textColor="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/dayEditText"
+        android:layout_weight="10"
+        android:textColor="#F1C40F"
+        android:textColorHint="#F1C40F" />
+    <TextView
+        android:text="Location:"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="10"
+        android:textColor="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/locationEditText"
+        android:layout_weight="10"
+        android:textColor="#F1C40F"
+        android:textColorHint="#F1C40F" />
+    <TextView
+        android:text="Time:"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="10"
+        android:textColor="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/timeEditText"
+        android:layout_weight="10"
+        android:textColor="#F1C40F"
+        android:textColorHint="#F1C40F" />
 </LinearLayout>
